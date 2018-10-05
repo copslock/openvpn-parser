@@ -11,5 +11,5 @@ authors = ["Pierre Chifflier <chifflier@wzdftpd.net>"]
 categories = ["parsing"]
 
 [dependencies]
-nom = "4.0"
+nom = "^3.0"
 rusticata-macros = {version="1.0.0", git='https://github.com/rusticata/rusticata-macros.git', branch='nom4'}
