@@ -12,4 +12,9 @@ categories = ["parsing"]
 
 [dependencies]
 nom = "^3.0"
-rusticata-macros = {version="1.0.0", git='https://github.com/rusticata/rusticata-macros.git', branch='nom4'}
+# rusticata-macros = {version="1.0.0", git='https://github.com/rusticata/rusticata-macros.git', branch='nom4'}
+
+
+[dependencies.rusticata-macros]
+# path = "../rusticata-macros"
+git = "https://github.com/copslock/rusticata-macros.git"
